@@ -41,6 +41,11 @@ export const StyleHome = styled.main`
     @media (max-width: 1060px) {
         .content {
             width: 500px;
+
+            h1 {
+                font-size: 60px;
+                line-height: 60px;
+            }
         }
 
         .img {
@@ -61,6 +66,11 @@ export const StyleHome = styled.main`
         .content {
             padding-right: 5%;
             width: 100%;
+
+            h1 {
+                font-size: 60px;
+                line-height: 70px;
+            }
         }
 
         .img {
@@ -75,6 +85,11 @@ export const StyleHome = styled.main`
 
     @media (max-width: 420px) {
         .content {
+            h1 {
+                font-size: 40px;
+                line-height: 45px;
+            }
+            
             .buttons {
                 flex-direction: column;
             }

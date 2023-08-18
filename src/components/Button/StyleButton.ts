@@ -1,7 +1,7 @@
 import { css, styled } from "styled-components";
 
 interface iButtonProps {
-    buttonStyle: "solid" | "outline" | "transparent"
+    buttonStyle: "solid" | "outline" | "transparent" | "solidDark"
     buttonSize?: "lg" | "md"
 }
 
@@ -56,6 +56,11 @@ export const StyleButton = styled.button<iButtonProps>`
                         background: ${theme.colors.primary};
                         color: ${theme.colors.secondary};
                     }
+                `
+            case "solidDark":
+                return css`
+                    background: ${theme.colors.secondary};
+                    color: ${theme.colors.primary};
                 `
         }
     }}

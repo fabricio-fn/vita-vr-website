@@ -14,7 +14,6 @@ export const StyledHeader = styled.header`
 
     h2 {
         color: ${({theme}) => theme.colors.primary};
-        font-size: 32px !important;
     }
 
     .btnMenu {

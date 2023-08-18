@@ -10,7 +10,7 @@ interface DataItem {
 
 export const DataList: DataItem[] = [
     {
-        icon: <MdGames />,
+        icon: "oi",
         title: "VR For Commercial"
     }
 ];

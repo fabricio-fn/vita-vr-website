@@ -32,11 +32,12 @@ export const StyleNavbar = styled.nav`
     @media(max-width: 768px) {
         position: absolute;
         left: 0;
-        margin-top: 180px;
+        margin-top: 230px;
         padding: 1rem;
         display: flex;
         align-items: center;
         flex-direction: column;
-        width: 100%;   
+        width: 100%;
+        border-bottom: 1px solid ${({theme}) => theme.colors.primary};
     }
 `

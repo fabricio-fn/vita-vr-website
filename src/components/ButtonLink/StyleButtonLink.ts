@@ -1,11 +1,31 @@
-import { styled } from "styled-components";
+import { css, styled } from "styled-components";
 
-export const StyleButtonLink = styled.a`
-    color: ${({ theme }) => theme.colors.secondary};
+interface iLinks {
+    linkStyle: "normal" | "shine"
+}
+
+export const StyleButtonLink = styled.a<iLinks>`
     font-family: ${({ theme }) => theme.font.fontFamily.primary};
     font-weight: ${({ theme }) => theme.font.weight.bold};
-    
-    &:hover {
-        color: ${({ theme }) => theme.colors.primary};
-    }
+
+    ${({ linkStyle }) => {
+        switch (linkStyle) {
+            case "normal":
+                return css`
+                    color: ${({ theme }) => theme.colors.aditional};
+
+                    &:hover {
+                        color: ${({ theme }) => theme.colors.primary};
+                    }
+                    `
+            case "shine":
+                return css`
+                    color: ${({ theme }) => theme.colors.primary};
+
+                    &:hover {
+                        color: ${({ theme }) => theme.colors.aditional};
+                    }
+                `
+        }
+    }}
 `

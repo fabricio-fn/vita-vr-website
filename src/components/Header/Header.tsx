@@ -36,7 +36,7 @@ export default function Header() {
 
     return (
         <StyledHeader>
-            <StyleTitle tag="h2">Vita</StyleTitle>
+            <StyleTitle tag="h2" fontSize="md">VETA</StyleTitle>
             {showMenu ? (
                 <Navbar />
             ) : null}
