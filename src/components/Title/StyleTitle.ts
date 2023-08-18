@@ -23,22 +23,4 @@ export const StyleTitle = styled(Title)`
                 `
         }
     }}
-
-    @media (max-width: 1060px) {
-        ${({ fontSize }) => {
-            return css`
-                font-size: 60px;
-                line-height: 60px;
-            `
-        }
-    }}
-
-    @media (max-width: 420px) {
-        ${({ fontSize }) => {
-            return css`
-                font-size: 40px;
-                line-height: 45px;
-            `
-        }
-    }}
 `
