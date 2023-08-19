@@ -32,7 +32,7 @@ export const StyleNavbar = styled.nav`
     @media(max-width: 768px) {
         position: absolute;
         left: 0;
-        margin-top: 230px;
+        margin-top: 340px;
         padding: 1rem;
         display: flex;
         align-items: center;

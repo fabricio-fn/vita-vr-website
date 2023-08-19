@@ -12,6 +12,7 @@ export const StyleAccordion = styled.ul`
         color: ${({ theme }) => theme.colors.secondary};
         background: ${({ theme }) => theme.colors.primary};
     }
+    
     .active h3, p{
         color: ${({ theme }) => theme.colors.secondary};
     }

@@ -11,13 +11,13 @@ export default function App() {
   return (
     <>
       <Header />
-      {/* <Home />
+      <Home />
       <Discover />
-      <Commitment /> */}
+      <Commitment />
       <BuildingWorld />
-      {/* <Depositions />
+      <Depositions />
       <GetStarted />
-      <Footer /> */}
+      <Footer />
     </>
   )
 }

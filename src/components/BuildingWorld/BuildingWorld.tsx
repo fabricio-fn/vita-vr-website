@@ -8,7 +8,7 @@ export default function BuildingWorld() {
         <StyleBuildingWorld>
             <div className="content">
                 <StyleTitle tag="h2" fontSize="lg">Building your <strong>own world</strong> now</StyleTitle>
-                <StyleParagraph fontSize="sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsa perferendis, esse culpa tempora soluta!</StyleParagraph>
+                <StyleParagraph fontSize="sm">We're already developing exciting new technologies that will help connect and explore in the world</StyleParagraph>
                 <Card />
             </div>
 

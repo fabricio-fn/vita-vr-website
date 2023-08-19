@@ -13,7 +13,7 @@ export default function Commitment() {
             <div className="content">
                 <StyleTitle tag="h2" fontSize="lg">Commitment we've <strong>developed</strong></StyleTitle>
                 <StyleParagraph fontSize="sm">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat alias distinctio, autem repellendus enim laudantium? Aspernatur quae iste rerum ab voluptatem quasi, incidunt impedit fugiat eligendi, ad.
+                    We believe responsible development is something we always work on, responsible development exist in order to develop a more organized and lead to better
                 </StyleParagraph>
                 <div className="acordion">
                     <Accordion />

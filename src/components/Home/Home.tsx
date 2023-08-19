@@ -9,14 +9,14 @@ export default function Home() {
         <StyleHome>
             <div className="content">
                 <StyleTitle tag="h1" fontSize="lg">
-                    Let's explore your own <strong>VS</strong> world
+                    Let's explore your own <strong>VR</strong> world
                 </StyleTitle>
 
                 <StyleParagraph fontSize="sm">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat alias distinctio, autem repellendus enim laudantium? Aspernatur quae iste rerum ab voluptatem quasi, incidunt impedit fugiat eligendi, ad.
+                    Veta is the next evolution of the VR world, our vision is to help connect all people in the world by eliminating distance and time. start your adventure together now
                 </StyleParagraph>
                 <div className="buttons">
-                    <StyleButton buttonStyle="solid" buttonSize="md">Exploere Naw</StyleButton>
+                    <StyleButton buttonStyle="solid" buttonSize="md">Explore Now</StyleButton>
                     <StyleButton buttonStyle="transparent" buttonSize="md">
                         <MdPlayCircle size={30} />
                         Learn More

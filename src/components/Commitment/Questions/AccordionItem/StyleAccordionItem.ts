@@ -16,7 +16,7 @@ export const StyleAccordionItem = styled.li`
 
         h3 {
             font-size: 24px;
-            line-height: 0;
+            line-height: 20px;
         }
     }
 `

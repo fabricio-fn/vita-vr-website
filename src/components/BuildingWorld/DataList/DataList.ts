@@ -5,15 +5,15 @@ interface DataItem {
 
 export const DataList: DataItem[] = [
     {
-        icon: "oi",
-        title: "VR For Commercial"
+        icon: "icone",
+        title: "Virtual Reality"
     },
     {
-        icon: "oi",
-        title: "VR For Commercial"
+        icon: "icone",
+        title: "Augmented Reality"
     },
     {
-        icon: "oi",
-        title: "VR For Commercial"
+        icon: "icone",
+        title: "Smart Device"
     },
 ];

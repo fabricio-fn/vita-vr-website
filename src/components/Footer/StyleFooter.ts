@@ -17,8 +17,7 @@ export const StyleFooter = styled.footer`
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
-        padding: 1rem 0;
-        
+        padding: 1rem 0; 
     }
     
     @media(max-width: 432px) {

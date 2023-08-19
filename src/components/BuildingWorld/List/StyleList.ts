@@ -6,7 +6,8 @@ export const StyleList = styled.li`
     align-items: center;
     justify-content: center;
     background: transparent;
-    width: 150px;
+    width: 130px;
+    padding: 1rem;
     text-align: center;
     height: 150px;
     gap: .5rem;
@@ -19,7 +20,7 @@ export const StyleList = styled.li`
         display: flex;
         align-items: center;
         justify-content: center;
-        border-radius: .5rem;
+        border-radius: 1rem;
         width: 50px;
         height: 50px;
     }
@@ -40,10 +41,7 @@ export const StyleList = styled.li`
         }
     }
 
-    @media (max-width: 768px) {
-        width: 180px;
-        height: 200px;
-
-        p { font-size: 13px; }
+    @media (max-width: 467px) {
+        justify-content: center;
     }
 `

@@ -10,16 +10,11 @@ export const StyleDepositions = styled.section`
     gap: 1rem;
     
     .content {
-        width: 600px;
+        width: 530px;
         display: flex;
         flex-direction: column;
         gap: 1rem;
         z-index: 1;
-
-        .buttons {
-            display: flex;
-            gap: 1rem;
-        }
     }
 
     .img {

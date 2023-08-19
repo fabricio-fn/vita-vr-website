@@ -10,9 +10,9 @@ export default function Depositions() {
             </div>
 
             <div className="content">
-                <StyleTitle tag="h2" fontSize="lg">Commitment we've <strong>developed</strong></StyleTitle>
+                <StyleTitle tag="h2" fontSize="lg">What our <strong>trusted clients</strong> say</StyleTitle>
                 <StyleParagraph fontSize="sm">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat alias distinctio, autem repellendus enim laudantium? Aspernatur quae iste rerum ab voluptatem quasi, incidunt impedit fugiat eligendi, ad.
+                    Fin that clients who already trust us, we always give the best to our clients
                 </StyleParagraph>
                 <div>
                     oi

@@ -4,43 +4,41 @@ import { BsPeopleFill } from "react-icons/bs";
 import { ReactElement } from "react";
 
 interface DataItem {
-    icon: ReactElement;
+    icon: string;
     title: string;
 }
 
 export const DataList: DataItem[] = [
     {
-        icon: "oi",
+        icon: "icone",
         title: "VR For Commercial"
+    },
+    {
+        icon: "icone",
+        title: "VR For Social"
+    },
+    {
+        icon: "icone",
+        title: "VR For Games"
+    },
+    {
+        icon: "icone",
+        title: "VR For Education"
+    },
+    {
+        icon: "icone",
+        title: "VR For Medical"
+    },
+    {
+        icon: "icone",
+        title: "VR For Entertainment"
+    },
+    {
+        icon: "icone",
+        title: "VR For Business"
+    },
+    {
+        icon: "icone",
+        title: "VR For Art"
     }
 ];
-
-// ,
-//     {
-//         icon: <BsPeopleFill />,
-//         title: "VR For Social"
-//     },
-//     {
-//         icon: <MdGames />,
-//         title: "VR For Games"
-//     },
-//     {
-//         icon: <MdGames />,
-//         title: "VR For Education"
-//     },
-//     {
-//         icon: <LuHeartHandshake />,
-//         title: "VR For Medical"
-//     },
-//     {
-//         icon: <MdGames />,
-//         title: "VR For Entertainment"
-//     },
-//     {
-//         icon: <MdGames />,
-//         title: "VR For Business"
-//     },
-//     {
-//         icon: <MdGames />,
-//         title: "VR For Art"
-//     }
