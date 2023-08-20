@@ -23,4 +23,4 @@
 
 <h3>Veja o resultado <a href="https://vita-vr-website.vercel.app/">aqui</a></h3>
 
-![image1](https://github.com/fabricio-fn/vita-vr-website/assets/116690430/53b8b224-c971-4c7a-909b-d7a82569d0d6)
+![image1](https://github.com/fabricio-fn/vita-vr-website/assets/116690430/3513ad27-913d-491d-9f10-1e650f68e0ee)
