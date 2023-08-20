@@ -9,6 +9,7 @@ export const StyleSlideCard = styled.ul`
     
     .swiper {
         width: 100%;
+        cursor: move;
 
         li {
             width: 100%;

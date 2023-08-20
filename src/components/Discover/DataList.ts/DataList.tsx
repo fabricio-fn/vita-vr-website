@@ -1,5 +1,5 @@
 import { LuHeartHandshake } from "react-icons/lu"
-import { FaListAlt } from "react-icons/fa"
+import { LuGamepad2 } from "react-icons/lu"
 import { FaPaintBrush } from "react-icons/fa"
 import { BsPeopleFill, BsFillTicketFill, BsJournalText } from "react-icons/bs"
 import { MdBusinessCenter } from "react-icons/md"
@@ -20,11 +20,11 @@ export const DataList: iDataItem[] = [
         title: "VR For Social"
     },
     {
-        icon: <BsJournalText />,
+        icon: <LuGamepad2 />,
         title: "VR For Games"
     },
     {
-        icon: <FaListAlt />,
+        icon: <BsJournalText />,
         title: "VR For Education"
     },
     {

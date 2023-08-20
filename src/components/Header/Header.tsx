@@ -41,7 +41,7 @@ export default function Header() {
                 <Navbar />
             ) : null}
 
-            <StyleButton buttonStyle="transparent" buttonSize="sm" className="btnMenu"
+            <StyleButton buttonStyle="transparent" buttonSize="md" className="btnMenu"
                 onClick={ToggleMenu}>
                 <MdMenu size="30" />
             </StyleButton>

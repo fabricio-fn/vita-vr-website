@@ -6,7 +6,7 @@ import { StyleParagraph } from '../../../Paragraph/StyleParagraph'
 import { BiSolidUpArrow, BiSolidDownArrow } from "react-icons/bi"
 
 export default function AccordionItem() {
-    const [openIndex, setOpenIndex] = useState(null)
+    const [openIndex, setOpenIndex] = useState<number | null>(null);
 
     const handleItemClick = (index: number) => {
         setOpenIndex(openIndex === index ? null : index)
