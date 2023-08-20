@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 export const StyleCommitment = styled.section`
     display: flex;
     width: 100%;
-    min-height: 110vh;
+    min-height: 100vh;
     align-items: center;
     justify-content: space-between;
     padding-right: 5%;

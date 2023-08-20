@@ -23,6 +23,11 @@ export const StyleList = styled.li`
         border-radius: 1rem;
         width: 50px;
         height: 50px;
+
+        svg {
+            color: ${({ theme }) => theme.colors.secondary};
+            font-size: 30px;
+        }
     }
 
     &:hover {

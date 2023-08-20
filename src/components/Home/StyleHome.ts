@@ -75,7 +75,7 @@ export const StyleHome = styled.main`
 
         .img {
             width: 100%;
-            height: 450px;
+            height: auto;
 
             img {
                 width: 550px;
@@ -96,8 +96,6 @@ export const StyleHome = styled.main`
         }
 
         .img {
-            height: 250px;
-
             img {
                 width: 265px;
                 margin-right: 0px;

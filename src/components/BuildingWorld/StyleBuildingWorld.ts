@@ -23,12 +23,12 @@ export const StyleBuildingWorld = styled.section`
         background: ${({ theme }) => theme.colors.primary};
         display: flex;
         align-items: end;
-        justify-content: center;
+        justify-content: end;
         border-top-left-radius: 3rem;
         border-bottom-left-radius: 3rem;
         
         img {
-            margin-right: 50px;
+            margin-right: 0px;
             width: 550px;
         }
     }
@@ -70,7 +70,7 @@ export const StyleBuildingWorld = styled.section`
 
         .img {
             width: 100%;
-            height: 450px;
+            height: auto;
 
             img {
                 width: 550px;

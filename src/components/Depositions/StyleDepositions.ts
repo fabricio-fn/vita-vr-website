@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 export const StyleDepositions = styled.section`
     display: flex;
     width: 100%;
-    min-height: 110vh;
+    min-height: 100vh;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 5%;
@@ -19,7 +19,7 @@ export const StyleDepositions = styled.section`
 
     .img {
         width: 500px;
-        /* height: 500px; */
+        height: 500px;
         background: ${({ theme }) => theme.colors.primary};
         display: flex;
         align-items: end;
@@ -34,8 +34,6 @@ export const StyleDepositions = styled.section`
 
     @media (max-width: 1060px) {
         .content {
-            width: 500px;
-
             h2 {
                 font-size: 60px;
                 line-height: 60px;
@@ -60,17 +58,17 @@ export const StyleDepositions = styled.section`
             width: 100%;
 
             h2 {
-                font-size: 60px;
                 line-height: 70px;
             }
         }
 
         .img {
             width: 100%;
+            height: auto;
 
             img {
                 border-radius: 0;
-                width: 350px;
+                width: 315px;
             }
         }
     }
@@ -85,8 +83,8 @@ export const StyleDepositions = styled.section`
 
         .img {
             img {
-                /* border-radius: 2.4rem; */
-                width: 210px;
+                /* margin-bottom: 3px; */
+                width: 183px;
             }
         }
     }

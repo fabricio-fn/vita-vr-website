@@ -20,6 +20,11 @@ export const StyleList = styled.li`
         background: ${({ theme }) => theme.colors.primary};
         width: 50px;
         height: 50px;
+
+        svg {
+            color: ${({ theme }) => theme.colors.secondary};
+            font-size: 30px;
+        }
     }
 
     &:hover {

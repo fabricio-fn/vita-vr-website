@@ -1,5 +1,6 @@
 import { StyleParagraph } from "../Paragraph/StyleParagraph";
 import { StyleTitle } from "../Title/StyleTitle";
+import SlideCard from "./Carousel/SlideCard/SlideCard";
 import { StyleDepositions } from "./StyleDepositions";
 
 export default function Depositions() {
@@ -14,9 +15,7 @@ export default function Depositions() {
                 <StyleParagraph fontSize="sm">
                     Fin that clients who already trust us, we always give the best to our clients
                 </StyleParagraph>
-                <div>
-                    oi
-                </div>
+                <SlideCard />
             </div>
         </StyleDepositions>
     )

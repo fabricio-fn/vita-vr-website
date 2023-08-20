@@ -1,20 +1,16 @@
-import { useState } from 'react';
-import { DataQuestions } from '../DataQuestions/DataQuestions';
-import { StyleAccordionItem } from './StyleAccordionItem';
-import { StyleTitle } from '../../../Title/StyleTitle';
-import { StyleParagraph } from '../../../Paragraph/StyleParagraph';
+import { useState } from 'react'
+import { DataQuestions } from '../DataQuestions/DataQuestions'
+import { StyleAccordionItem } from './StyleAccordionItem'
+import { StyleTitle } from '../../../Title/StyleTitle'
+import { StyleParagraph } from '../../../Paragraph/StyleParagraph'
 import { BiSolidUpArrow, BiSolidDownArrow } from "react-icons/bi"
 
 export default function AccordionItem() {
-    const [openIndex, setOpenIndex] = useState(null);
+    const [openIndex, setOpenIndex] = useState(null)
 
-    const handleItemClick = (index) => {
-        if (openIndex === index) {
-            setOpenIndex(null);
-        } else {
-            setOpenIndex(index);
-        }
-    };
+    const handleItemClick = (index: number) => {
+        setOpenIndex(openIndex === index ? null : index)
+    }    
 
     return (
         <>
