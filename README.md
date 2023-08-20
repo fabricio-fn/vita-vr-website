@@ -1,27 +1,26 @@
-# React + TypeScript + Vite
+<h1>Vita VR</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h3>Uma landing page sobre um produto de realidade virtual</h3>
 
-Currently, two official plugins are available:
+<h1>Tecnologias usadas</h1
+<ul>
+   <li>
+      <a href="https://react.dev/">React</a>
+   </li>
+   <li>
+      <a href="https://vitejs.dev/">Vite</a>
+   </li>
+   <li>
+      <a href="https://www.typescriptlang.org/">Typescript</a>
+   </li>
+   <li>
+      <a href="https://swiperjs.com/">Swiper</a>
+   </li>
+    <li>
+      <a href="https://styled-components.com/">Styled-Components</a>
+   </li>
+</ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h3>Veja o resultado <a href="https://vita-vr-website.vercel.app/">aqui</a></h3>
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![image1](https://github.com/fabricio-fn/vita-vr-website/assets/116690430/53b8b224-c971-4c7a-909b-d7a82569d0d6)
