@@ -9,6 +9,13 @@ export const Globals = createGlobalStyle`
 
     body {
         background: ${({ theme }) => theme.colors.secondary};
+        display: flex;
+        justify-content: center;
+    }
+
+    #root {
+        width: 100%;
+        max-width: 1920px;
     }
 
     button {
@@ -33,5 +40,9 @@ export const Globals = createGlobalStyle`
         margin: 0;
         padding: 0;
         list-style: none;
+    }
+
+    img {
+        pointer-events: none;
     }
 `

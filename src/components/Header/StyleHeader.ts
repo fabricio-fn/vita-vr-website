@@ -6,6 +6,7 @@ export const StyledHeader = styled.header`
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    max-width: 1920px;
     position: fixed;
     z-index: 2;
     height: 70px;
@@ -19,6 +20,8 @@ export const StyledHeader = styled.header`
     .btnMenu {
         color: ${({theme}) => theme.colors.primary};
         display: none;
+
+        &:hover { color: ${({theme}) => theme.colors.secondary}; }
     }
 
     @media(max-width: 768px) { 
